@@ -50,7 +50,7 @@
 
 	<!-- Project style. This section defines the styles that are applied to project lines. -->
 	<color id="project" extendsColorID="green" />
-	<font id="project" name="InputSans Bold" size="16" />
+	<font id="project" name="InputSans Bold" size="12" />
 	<characterStyle id="project" fontID="project" foregroundColorID="project" />
 	<paragraphStyle id="project" extendsParagraphStyleID="base" paragraphSpacingBefore="0" paragraphSpacing="4" />
 	<entryRule matchesQuery="type = &quot;project&quot;" lineCharacterStyleID="project" paragraphStyleID="project" />
@@ -63,7 +63,7 @@
 
 	<!-- GroupHeader style. This section defines the styles that are applied to groupHeader lines. (top level projects) -->
 	<color id="groupHeader" extendsColorID="white" />
-	<font id="groupHeader" name="InputSans Bold" size="21" />
+	<font id="groupHeader" name="InputSans Bold" size="18" />
 	<characterStyle id="groupHeader" fontID="groupHeader" foregroundColorID="groupHeader" />
 	<paragraphStyle id="groupHeader" extendsParagraphStyleID="base" paragraphSpacingBefore="19" paragraphSpacing="7" />
 	<entryRule matchesQuery="isgroupheader" paragraphStyleID="groupHeader" lineCharacterStyleID="groupHeader" />
