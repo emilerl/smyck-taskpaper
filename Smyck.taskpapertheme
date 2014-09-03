@@ -15,6 +15,9 @@
 	<color id="red" red="0.878431" green="0.588235" blue="0.564706" alpha="1.0"/>
 	<color id="white" red="0.968627" green="0.968627" blue="0.968627" alpha="1.0"/>
 	<color id="yellow" red="1.000000" green="0.890196" blue="0.466667" alpha="1.0"/>
+	
+	<!-- Extra colors -->
+	<color id="black" red="0" green="0" blue="0" alpha="1.0" />
 	<color id="bg" red="0.141176" green="0.141176" blue="0.141176" alpha="1.0" />
 
 	<!-- Window Style -->
@@ -50,7 +53,7 @@
 
 	<!-- Project style. This section defines the styles that are applied to project lines. -->
 	<color id="project" extendsColorID="green" />
-	<font id="project" name="InputSans Bold" size="12" />
+	<font id="project" name="InputSans Bold" size="14" />
 	<characterStyle id="project" fontID="project" foregroundColorID="project" />
 	<paragraphStyle id="project" extendsParagraphStyleID="base" paragraphSpacingBefore="0" paragraphSpacing="4" />
 	<entryRule matchesQuery="type = &quot;project&quot;" lineCharacterStyleID="project" paragraphStyleID="project" />
@@ -75,6 +78,12 @@
 
 	<!-- @today style. This section defines the styles that are applied to lines tagged with @today. -->
 	<color id="today" extendsColorID="darkyellow" />
-	<characterStyle id="today" foregroundColorID="today" />
+	<font id="today" name="InputSans Bold" />
+	<characterStyle id="today" foregroundColorID="today" backgroundColorID="gray" fontID="today" />
 	<entryRule matchesQuery="@today" lineCharacterStyleID="today" />
+
+	<!-- @waiting style. This section defines the styles that are applied to lines tagged with @waiting. -->
+	<font id="waiting" name="InputSansNarrow Italic" />
+	<characterStyle id="waiting" foregroundColorID="cyan" fontID="waiting" />
+	<entryRule matchesQuery="@waiting" lineCharacterStyleID="waiting" />
 </theme>
