@@ -1,0 +1,9 @@
+Welcome:
+	This is an adaptation of the SMYCK color scheme (http://color.smyck.org/) for TaskPaper
+
+	Project:
+		This is a comment about this project. Pretty sweet
+		- This is a task
+		- This is a completed task @done
+		- This is a task due @today
+
